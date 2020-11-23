@@ -1,0 +1,20 @@
+19
+Drinks bottle Sweet Cola 2
+Drinks bottle Sweet Sprite 2
+Drinks bottle Half Milk 5
+Drinks bottle Sweet Coffee 3
+Drinks bottle Spring Water 2
+VF Green g BokChoy 500
+VF White g Cauliflower 500
+VF Red piece Apple 3
+VF Orange piece Orange 5
+VF Red g Pepper 400
+Snacks piece Yellow Original Chips 3
+Snacks piece Yellow Sweet CheeseCake 1
+Snacks piece Black Sweet Cookie 3
+Snacks piece White Sweet Chocolate 3
+Meat g Beef 400
+Meat g Pork 500
+Meat g lamb 300
+Meat g shrimp 500
+Meat piece Crab 3

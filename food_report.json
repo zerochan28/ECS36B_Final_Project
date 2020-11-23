@@ -1,0 +1,43 @@
+[
+    {
+        "name": "FoodReport",
+        "params": {
+            "action": "food_report",
+            "your_json": "some JSON string"
+        },
+        "returns": {
+            "action": "result",
+	        "response": "jsonstr"
+        }
+    },
+    {
+        "name": "Get_Food",
+        "params": {
+            "action": "get_food",
+            "type": "Meat",
+            "name": "beef",
+            "quantity": 1
+        },
+        "returns": {
+            "action": "call",
+	        "status": "successful",
+            "reason": "limitation",
+            "new_quantity": 1
+        }
+    },
+    {
+        "name": "Order_Food",
+        "params": {
+            "action": "Order_food",
+            "type": "Meat",
+            "name": "beef",
+            "quantity": 1
+        },
+        "returns": {
+            "action": "call",
+	        "status": "successful",
+            "reason": "limitation",
+            "new_quantity": 1
+        }
+    }
+]

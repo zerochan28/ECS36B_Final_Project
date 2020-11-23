@@ -1,0 +1,31 @@
+30
+Drinks bottle Sweet Cola
+Drinks bottle Sweet Sprite
+Drinks bottle Sour Lemonade
+Drinks bottle Half Milk
+Drinks bottle Sweet Coffee
+Drinks bottle Spring Water
+Drinks bottle Sugarless Greentea
+Drinks cup Sweet Boba
+VF Green g BokChoy
+VF White g Cauliflower
+VF Green g Broccoli
+VF Yellow g Corn
+VF Red g Apple
+VF White piece Coconut
+VF Yellow piece Pineapple
+VF Orange piece Orange
+VF Yellow piece Banana
+VF Red g Pepper
+Snacks piece Yellow Original Chips
+Snacks piece Yellow Sweet CheeseCake
+Snacks piece Black Sweet Cookie
+Snacks piece Black Sweet Goldfish
+Snacks piece Yello Butter Popcorn
+Snacks piece White Sweet Chocolate
+Meat g Beef
+Meat g Pork
+Meat g fish
+Meat g lamb
+Meat g shrimp
+Meat piece Crab

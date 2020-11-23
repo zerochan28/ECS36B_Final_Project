@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Command",
+        "params": {
+            "action": "Command",
+            "your_json": "some JSON string"
+        },
+        "returns": {
+            "action": "result",
+	        "response": "jsonstr"
+        }
+    },
+    {
+        "name": "Order_Food",
+        "params": {
+            "action": "order_food",
+            "type": "Meat",
+            "name": "beef",
+            "quantity": 1
+        },
+        "returns": {
+            "action": "call",
+            "status": "successful",
+            "size": "bottle",
+            "flavor": "sweet",
+            "color": "red",
+            "reason": "limitation"
+        }
+    }
+]
