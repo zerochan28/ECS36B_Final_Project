@@ -1,4 +1,5 @@
-//Saifedin Maani 11/18/2020 8:47 PM
+// Created by Saifedin Maani on 11/18/2020 8:47 PM
+// Edited by Linhao Chen on 11/22/2020
 
 #include "food.h"
 
