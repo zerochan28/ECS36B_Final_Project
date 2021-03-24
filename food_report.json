@@ -3,7 +3,7 @@
         "name": "FoodReport",
         "params": {
             "action": "food_report",
-            "your_json": "some JSON string"
+            "value": 1.1
         },
         "returns": {
             "action": "result",

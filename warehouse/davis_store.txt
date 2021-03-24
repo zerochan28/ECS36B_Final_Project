@@ -1,0 +1,24 @@
+23
+Drinks bottle(550ml) Sweet Cola 240 65 0 0 2 2 1 0
+Drinks bottle(550ml) Sweet Sprite 200 54 0 0 2 2 1 0
+Drinks bottle(550ml) Sweet AppleJuice 110 28 0 0 2 2 1 0
+Drinks bottle(550ml) Sweet OrangeJuice 110 26 2 0 2 2 1 0
+Drinks bottle(550ml) Sour Lemonade 120 30 0 0 2 2 1 0
+Drinks bottle(550ml) Half Milk 150 12 8 8 2 2 2 2
+Drinks bottle(550ml) Regular AlmondMilk 90 3 3 8 2 2 2 2
+Drinks bottle(550ml) Regular SoyMilk 100 11 6 3.5 2 2 2 2
+Drinks bottle(550ml) Regular CoconutMilk 45 2 0 4 2 2 2 2
+Drinks bottle(550ml) Sweet CoconutWater 60 13 0 1 2 2 2 2
+Drinks cup(8oz) Sweet Latte 136 11 7 7 2 2 2 2
+Drinks bottle(550ml) Spring Water 0 0 0 0 5 5 5 5
+Drinks bottle(550ml) Sugarless Greentea 130 35 0 0 2 2 2 2
+Drinks bottle(550ml) Sugarless Blacktea 0 0 0 0 2 2 2 2
+Drinks bottle(550ml) Sugarless DietRootbeer 0 0 0 0 2 2 2 2
+Drinks bottle(550ml) Sugarless DietCoke 0 0 0 0 2 2 2 2
+Drinks cup(250g) Alcohol Whiskey 250 0 0 0 1 1 1 1
+Drinks can(356g) Alcohol Beer 150 13 1 0 2 2 2 2
+Drinks jigger(42g) Alcohol Tequila 96 0 0 0 1 1 1 1
+Drinks jigger(42g) Alcohol Vodka 97 0 0 0 1 1 1 1
+Drinks cup(100g) Alcohol Sake 134 5 0.5 0 1 1 1 1
+Drinks cup(250g) Sweet Boba 317 56 1.8 10.6 2 2 1 0
+Drinks cup(250g) Sweet Chocolate 194 27 9 6 2 2 1 0

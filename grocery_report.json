@@ -24,7 +24,15 @@
             "size": "bottle",
             "flavor": "sweet",
             "color": "red",
-            "reason": "limitation"
+            "reason": "limitation",
+            "limit_low": 1,
+            "limit_24": 1,
+            "limit_30": 1,
+            "limit_high": 1,
+            "calorie": 1.1,
+            "carbo": 1.1,
+            "protein": 1.1,
+            "fat": 1.1
         }
     }
 ]

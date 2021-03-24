@@ -33,6 +33,8 @@ grocery.o: grocery.cpp food.cpp food.h grocery_server.h
 grocery: grocery.o
 	$(CC) -o grocery grocery.o $(LDFLAGS)
 
-
 clean:
 	rm -f *.o smart_phone smart_fridge grocery
+
+format:
+	clang-format -i -style=file *.cpp *.h

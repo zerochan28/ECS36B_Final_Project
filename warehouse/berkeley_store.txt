@@ -1,0 +1,24 @@
+23
+Snacks piece Yellow Original Chips 160 15 2 10 2 2 1 0
+Snacks piece Yellow Sweet Cake 190 30 14 2 2 2 1 0
+Snacks piece Yellow Sweet CheeseCake 205 16.1 3.6 12.3 2 2 1 0
+Snacks piece Black Sweet Cookie 171 22 2.5 8.8 2 2 1 0
+Snacks piece Black Sweet Goldfish 140 22 2 5 2 2 1 0
+Snacks piece Yellow Butter Popcorn 140 17 2 8 2 2 1 0
+Snacks piece White Sweet Chocolate 450 84 1 13 2 2 1 0
+Snacks piece Yellow Original Crackers 120 20 3 4 2 2 1 0
+Snacks piece Yellow Original Cheese 70 0 6 5 2 2 1 0
+Snacks piece Yellow Sweet Mooncake 130 9.7 3.2 8.7 2 2 1 0
+Snacks piece Yellow Original ShrimpChips 130 20 2 5 2 2 1 0
+Snacks piece Yellow Sweet Pocky 190 28 4 7 2 2 1 0
+Meat serving(100g) Beef 250 0 26 15 2 2 1 1
+Meat serving(100g) Pork 242 0 27 14 2 2 1 1
+Meat serving(100g) Fish 206 0 22 12 2 2 1 1
+Meat serving(100g) Lamb 294 0 25 21 2 2 1 1
+Meat serving(100g) Shrimp 99 0.2 24 0.3 2 2 1 1
+Meat serving(100g) Chicken 239 0 22 14 2 2 1 1
+Meat serving(100g) Crab 97 0 19 1.5 2 2 1 1
+Meat serving(100g) Mussel 172 7 24 4.5 2 2 1 1
+Meat serving(100g) Clam 148 5.1 26 2 2 2 1 1
+Meat serving(100g) Lobster 129 0 27.6 1.3 2 2 1 1
+Meat serving(85g) Rabbit 147 0 28 3 2 2 1 1

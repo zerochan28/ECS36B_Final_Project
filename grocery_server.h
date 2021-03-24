@@ -7,25 +7,41 @@
 
 #include <jsonrpccpp/server.h>
 
-class grocery_server : public jsonrpc::AbstractServer<grocery_server>
-{
-    public:
-        grocery_server(jsonrpc::AbstractServerConnector &conn, jsonrpc::serverVersion_t type = jsonrpc::JSONRPC_SERVER_V2) : jsonrpc::AbstractServer<grocery_server>(conn, type)
-        {
-            this->bindAndAddMethod(jsonrpc::Procedure("Command", jsonrpc::PARAMS_BY_NAME, jsonrpc::JSON_OBJECT, "action",jsonrpc::JSON_STRING,"your_json",jsonrpc::JSON_STRING, NULL), &grocery_server::CommandI);
-            this->bindAndAddMethod(jsonrpc::Procedure("Order_Food", jsonrpc::PARAMS_BY_NAME, jsonrpc::JSON_OBJECT, "action",jsonrpc::JSON_STRING,"name",jsonrpc::JSON_STRING,"quantity",jsonrpc::JSON_INTEGER,"type",jsonrpc::JSON_STRING, NULL), &grocery_server::Order_FoodI);
-        }
+class grocery_server : public jsonrpc::AbstractServer<grocery_server> {
+  public:
+  grocery_server(jsonrpc::AbstractServerConnector &conn,
+      jsonrpc::serverVersion_t type = jsonrpc::JSONRPC_SERVER_V2)
+      : jsonrpc::AbstractServer<grocery_server>(conn, type) {
+    this->bindAndAddMethod(
+        jsonrpc::Procedure("Command", jsonrpc::PARAMS_BY_NAME,
+            jsonrpc::JSON_OBJECT, "action", jsonrpc::JSON_STRING, "your_json",
+            jsonrpc::JSON_STRING, NULL),
+        &grocery_server::CommandI);
+    this->bindAndAddMethod(
+        jsonrpc::Procedure("Order_Food", jsonrpc::PARAMS_BY_NAME,
+            jsonrpc::JSON_OBJECT, "action", jsonrpc::JSON_STRING, "name",
+            jsonrpc::JSON_STRING, "quantity", jsonrpc::JSON_INTEGER, "type",
+            jsonrpc::JSON_STRING, NULL),
+        &grocery_server::Order_FoodI);
+  }
 
-        inline virtual void CommandI(const Json::Value &request, Json::Value &response)
-        {
-            response = this->Command(request["action"].asString(), request["your_json"].asString());
-        }
-        inline virtual void Order_FoodI(const Json::Value &request, Json::Value &response)
-        {
-            response = this->Order_Food(request["action"].asString(), request["name"].asString(), request["quantity"].asInt(), request["type"].asString());
-        }
-        virtual Json::Value Command(const std::string& action, const std::string& your_json) = 0;
-        virtual Json::Value Order_Food(const std::string& action, const std::string& name, int quantity, const std::string& type) = 0;
+  inline virtual void CommandI(
+      const Json::Value &request, Json::Value &response) {
+    response = this->Command(
+        request["action"].asString(), request["your_json"].asString());
+  }
+  inline virtual void Order_FoodI(
+      const Json::Value &request, Json::Value &response) {
+    response = this->Order_Food(request["action"].asString(),
+        request["name"].asString(), request["quantity"].asInt(),
+        request["type"].asString());
+  }
+  virtual Json::Value Command(
+      const std::string &action, const std::string &your_json)
+      = 0;
+  virtual Json::Value Order_Food(const std::string &action,
+      const std::string &name, int quantity, const std::string &type)
+      = 0;
 };
 
 #endif //JSONRPC_CPP_STUB_GROCERY_SERVER_H_

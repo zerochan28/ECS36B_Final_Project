@@ -1,49 +1,41 @@
 //
 // Created by nicholas on 11/18/2020.
 // edited by Saifedin Maani on 11/19/2020
-// edited by Linhao Chen on 11/22/2020
 
 #include "Person.h"
-#include <stdlib.h>
-#include <stdio.h>
 #include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 #include <string>
 #include <strings.h>
 
-Person::Person()
-{
-
+Person::Person() {
 }
 
-Person::Person(string name, string phone_number, string address, int age, double height, double weight)
-{
-    this->name = name;
-	this->phone_number = phone_number;
-	this->address = address;
-	this->age = age;
-	this->height = height;
-	this->weight = weight;
+Person::Person(string name, string phone_number, string address, int age,
+    double height, double weight) {
+  this->name = name;
+  this->phone_number = phone_number;
+  this->address = address;
+  this->age = age;
+  this->height = height;
+  this->weight = weight;
 }
 
-string Person::getPersonName()
-{
-    return this->name;
+string Person::getPersonName() {
+  return this->name;
 }
 
-void Person::setPersonName(string name)
-{
-	this->name = name;
+void Person::setPersonName(string name) {
+  this->name = name;
 }
 
-string Person::getPersonPhone()
-{
-    return this->phone_number;
+string Person::getPersonPhone() {
+  return this->phone_number;
 }
 
-
-void Person::setPersonPhone(string phone_number)
-{
-	this->phone_number = phone_number;
+void Person::setPersonPhone(string phone_number) {
+  this->phone_number = phone_number;
 }
 
 /*
@@ -65,42 +57,34 @@ bool Person::operator==(Person& aperson)
 
 */
 
-string Person::getPersonAddress()
-{
-	return this->address;
+string Person::getPersonAddress() {
+  return this->address;
 }
 
-void Person::setPersonAddress(string address)
-{
-	this->address = address;
+void Person::setPersonAddress(string address) {
+  this->address = address;
 }
 
-int Person::getPersonAge(){
-	return this->age;
+int Person::getPersonAge() {
+  return this->age;
 }
 
-void Person::setPersonAge(int age){
-	this->age = age;
+void Person::setPersonAge(int age) {
+  this->age = age;
 }
 
-double Person::getPersonHeight(){
-	return this->height;
+double Person::getPersonHeight() {
+  return this->height;
 }
 
-void Person::setPersonHeight(double height){
-	this->height = height;
+void Person::setPersonHeight(double height) {
+  this->height = height;
 }
 
 double Person::getPersonWeight() {
-	return this->weight;
+  return this->weight;
 }
 
-void Person::setPersonWeight(double weight){
-	this->weight = weight;
+void Person::setPersonWeight(double weight) {
+  this->weight = weight;
 }
-
-
-
-
-
-

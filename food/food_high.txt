@@ -1,9 +1,8 @@
-20
-Drinks bottle(550ml) Half Milk 5 150 12 8 8 2 2 2 2
+15
+Drinks bottle(550ml) Half Milk 2 150 12 8 8 2 2 2 2
 Drinks bottle(550ml) Spring Water 5 0 0 0 0 5 5 5 5 5
 Drinks bottle(550ml) Sugarless DietCoke 1 0 0 0 0 2 2 2 2
 Drinks can(356g) Alcohol Beer 1 150 13 1 0 2 2 2 2
-Drinks cup(250g) Sweet Chocolate 1 194 27 9 6 2 2 1 0
 VF Red serving(100g) Pepper 1 37 7 1.2 0.4 5 5 5 5
 VF White serving(100g) Mushroom 1 4 0.6 0.6 0.1 5 5 5 5
 VF Green serving(100g) Lettuce 2 53 10 4.9 0.5 5 5 5 5
@@ -11,10 +10,6 @@ VF Green serving(100g) Celery 2 5.6 1.2 0.3 0.1 5 5 5 5
 VF Green serving(100g) Cucumber 2 45 11 2 0 5 5 5 5
 VF Purple serving(100g) Eggplant 2 136 32 5 1 5 5 5 5
 VF Pink serving(100g) Dragonfruit 1 60 13 1.2 0 5 5 5 5
-Snacks piece Yellow Original Chips 1 160 15 2 10 2 2 1 0
-Snacks piece Yellow Sweet Cake 2 190 30 14 2 2 2 1 0
-Snacks piece Yellow Sweet CheeseCake 2 205 16.1 3.6 12.3 2 2 1 0
-Snacks piece Black Sweet Cookie 2 171 22 2.5 8.8 2 2 1 0
 Meat serving(100g) Beef 2 250 0 26 15 2 2 1 1
 Meat serving(100g) Pork 2 242 0 27 14 2 2 1 1
 Meat serving(100g) Fish 2 206 0 22 12 2 2 1 1

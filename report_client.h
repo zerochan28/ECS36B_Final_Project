@@ -7,48 +7,56 @@
 
 #include <jsonrpccpp/client.h>
 
-class report_client : public jsonrpc::Client
-{
-    public:
-        report_client(jsonrpc::IClientConnector &conn, jsonrpc::clientVersion_t type = jsonrpc::JSONRPC_CLIENT_V2) : jsonrpc::Client(conn, type) {}
+class report_client : public jsonrpc::Client {
+  public:
+  report_client(jsonrpc::IClientConnector &conn,
+      jsonrpc::clientVersion_t type = jsonrpc::JSONRPC_CLIENT_V2)
+      : jsonrpc::Client(conn, type) {
+  }
 
-        Json::Value FoodReport(const std::string& action, const std::string& your_json) throw (jsonrpc::JsonRpcException)
-        {
-            Json::Value p;
-            p["action"] = action;
-            p["your_json"] = your_json;
-            Json::Value result = this->CallMethod("FoodReport",p);
-            if (result.isObject())
-                return result;
-            else
-                throw jsonrpc::JsonRpcException(jsonrpc::Errors::ERROR_CLIENT_INVALID_RESPONSE, result.toStyledString());
-        }
-        Json::Value Get_Food(const std::string& action, const std::string& name, int quantity, const std::string& type) throw (jsonrpc::JsonRpcException)
-        {
-            Json::Value p;
-            p["action"] = action;
-            p["name"] = name;
-            p["quantity"] = quantity;
-            p["type"] = type;
-            Json::Value result = this->CallMethod("Get_Food",p);
-            if (result.isObject())
-                return result;
-            else
-                throw jsonrpc::JsonRpcException(jsonrpc::Errors::ERROR_CLIENT_INVALID_RESPONSE, result.toStyledString());
-        }
-        Json::Value Order_Food(const std::string& action, const std::string& name, int quantity, const std::string& type) throw (jsonrpc::JsonRpcException)
-        {
-            Json::Value p;
-            p["action"] = action;
-            p["name"] = name;
-            p["quantity"] = quantity;
-            p["type"] = type;
-            Json::Value result = this->CallMethod("Order_Food",p);
-            if (result.isObject())
-                return result;
-            else
-                throw jsonrpc::JsonRpcException(jsonrpc::Errors::ERROR_CLIENT_INVALID_RESPONSE, result.toStyledString());
-        }
+  Json::Value FoodReport(const std::string &action, double value) throw(
+      jsonrpc::JsonRpcException) {
+    Json::Value p;
+    p["action"] = action;
+    p["value"] = value;
+    Json::Value result = this->CallMethod("FoodReport", p);
+    if (result.isObject())
+      return result;
+    else
+      throw jsonrpc::JsonRpcException(
+          jsonrpc::Errors::ERROR_CLIENT_INVALID_RESPONSE,
+          result.toStyledString());
+  }
+  Json::Value Get_Food(const std::string &action, const std::string &name,
+      int quantity, const std::string &type) throw(jsonrpc::JsonRpcException) {
+    Json::Value p;
+    p["action"] = action;
+    p["name"] = name;
+    p["quantity"] = quantity;
+    p["type"] = type;
+    Json::Value result = this->CallMethod("Get_Food", p);
+    if (result.isObject())
+      return result;
+    else
+      throw jsonrpc::JsonRpcException(
+          jsonrpc::Errors::ERROR_CLIENT_INVALID_RESPONSE,
+          result.toStyledString());
+  }
+  Json::Value Order_Food(const std::string &action, const std::string &name,
+      int quantity, const std::string &type) throw(jsonrpc::JsonRpcException) {
+    Json::Value p;
+    p["action"] = action;
+    p["name"] = name;
+    p["quantity"] = quantity;
+    p["type"] = type;
+    Json::Value result = this->CallMethod("Order_Food", p);
+    if (result.isObject())
+      return result;
+    else
+      throw jsonrpc::JsonRpcException(
+          jsonrpc::Errors::ERROR_CLIENT_INVALID_RESPONSE,
+          result.toStyledString());
+  }
 };
 
 #endif //JSONRPC_CPP_STUB_REPORT_CLIENT_H_

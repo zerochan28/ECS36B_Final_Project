@@ -1,31 +1,94 @@
-30
-Drinks bottle Sweet Cola
-Drinks bottle Sweet Sprite
-Drinks bottle Sour Lemonade
-Drinks bottle Half Milk
-Drinks bottle Sweet Coffee
-Drinks bottle Spring Water
-Drinks bottle Sugarless Greentea
-Drinks cup Sweet Boba
-VF Green g BokChoy
-VF White g Cauliflower
-VF Green g Broccoli
-VF Yellow g Corn
-VF Red g Apple
-VF White piece Coconut
-VF Yellow piece Pineapple
-VF Orange piece Orange
-VF Yellow piece Banana
-VF Red g Pepper
-Snacks piece Yellow Original Chips
-Snacks piece Yellow Sweet CheeseCake
-Snacks piece Black Sweet Cookie
-Snacks piece Black Sweet Goldfish
-Snacks piece Yello Butter Popcorn
-Snacks piece White Sweet Chocolate
-Meat g Beef
-Meat g Pork
-Meat g fish
-Meat g lamb
-Meat g shrimp
-Meat piece Crab
+93
+Drinks bottle(550ml) Sweet Cola 240 65 0 0 2 2 1 0
+Drinks bottle(550ml) Sweet Sprite 200 54 0 0 2 2 1 0
+Drinks bottle(550ml) Sweet AppleJuice 110 28 0 0 2 2 1 0
+Drinks bottle(550ml) Sweet OrangeJuice 110 26 2 0 2 2 1 0
+Drinks bottle(550ml) Sour Lemonade 120 30 0 0 2 2 1 0
+Drinks bottle(550ml) Half Milk 150 12 8 8 2 2 2 2
+Drinks bottle(550ml) Regular AlmondMilk 90 3 3 8 2 2 2 2
+Drinks bottle(550ml) Regular SoyMilk 100 11 6 3.5 2 2 2 2
+Drinks bottle(550ml) Regular CoconutMilk 45 2 0 4 2 2 2 2
+Drinks bottle(550ml) Sweet CoconutWater 60 13 0 1 2 2 2 2
+Drinks cup(8oz) Sweet Latte 136 11 7 7 2 2 2 2
+Drinks bottle(550ml) Spring Water 0 0 0 0 5 5 5 5
+Drinks bottle(550ml) Sugarless Greentea 130 35 0 0 2 2 2 2
+Drinks bottle(550ml) Sugarless Blacktea 0 0 0 0 2 2 2 2
+Drinks bottle(550ml) Sugarless DietRootbeer 0 0 0 0 2 2 2 2
+Drinks bottle(550ml) Sugarless DietCoke 0 0 0 0 2 2 2 2
+Drinks cup(250g) Alcohol Whiskey 250 0 0 0 1 1 1 1
+Drinks can(356g) Alcohol Beer 150 13 1 0 2 2 2 2
+Drinks jigger(42g) Alcohol Tequila 96 0 0 0 1 1 1 1
+Drinks jigger(42g) Alcohol Vodka 97 0 0 0 1 1 1 1
+Drinks cup(100g) Alcohol Sake 134 5 0.5 0 1 1 1 1
+Drinks cup(250g) Sweet Boba 317 56 1.8 10.6 2 2 1 0
+Drinks cup(250g) Sweet Chocolate 194 27 9 6 2 2 1 0
+VF Red serving(100g) Pepper 37 7 1.2 0.4 5 5 5 5
+VF Red serving(100g) Apple 95 25 0.5 0.3 5 5 5 5
+VF Red serving(100g) Radish 1 0.2 0 0 5 5 5 5
+VF White serving(100g) Cauliflower 146 29 11 1.6 5 5 5 5
+VF White serving(100g) Garlic 4 0.93 0.18 0.01 5 5 5 5
+VF White serving(100g) Mushroom 4 0.6 0.6 0.1 5 5 5 5
+VF Green serving(100g) Pea 118 21 8 0.6 5 5 5 5
+VF Green serving(100g) Artichoke 60 13 4.2 0.2 5 5 5 5
+VF Green serving(100g) Lettuce 53 10 4.9 0.5 5 5 5 5
+VF Green serving(100g) Celery 5.6 1.2 0.3 0.1 5 5 5 5
+VF Green serving(100g) Cucumber 45 11 2 0 5 5 5 5
+VF Green serving(100g) Kale 49 9 4.3 0.9 5 5 5 5
+VF Green serving(100g) Asparagus 3 0.6 0.4 0 5 5 5 5
+VF Green serving(100g) BokChoy 110 18 13 1.7 5 5 5 5
+VF Green serving(100g) Broccoli 50 10 4.2 0.5 5 5 5 5
+VF Green serving(100g) Cabbage 223 53 12 0.9 5 5 5 5
+VF Green serving(100g) Onion 44 10 1.2 0.1 5 5 5 5
+VF Green serving(100g) Spinach 23 3.6 2.9 0.4 5 5 5 5
+VF Green serving(100g) GreenBean 17 3.9 1 0.1 5 5 5 5
+VF Green serving(100g) BrusselSprout 8 1.7 0.6 0.1 5 5 5 5
+VF Orange serving(100g) Carrot 25 6 0.6 0.1 5 5 5 5
+VF Purple serving(100g) Eggplant 136 32 5 1 5 5 5 5
+VF Yellow serving(100g) Corn 77 17 2.9 1.1 5 5 5 5
+VF Brown serving(100g) Bean 670 121 41 2.4 5 5 5 5
+VF Purple serving(100g) Grape 67 17 0.6 0.4 5 5 5 5
+VF Brown serving(100g) Potato 163 37 4.3 0.2 5 5 5 5
+VF Brown serving(100g) SweetPotato 112 26 2 0.1 5 5 5 5
+VF White serving(100g) Coconut 1405 60 13 133 5 5 5 5
+VF Yellow serving(100g) Pineapple 451 119 4.9 1.1 5 5 5 5
+VF Orange serving(100g) Orange 62 15 1.2 0.2 5 5 5 5
+VF Yellow serving(100g) Banana 105 27 1.3 0.4 5 5 5 5
+VF Green serving(100g) Watermelon 1371 341 28 7 5 5 5 5
+VF Green serving(100g) Avocado 322 17 4 29 5 5 5 5
+VF Orange serving(100g) Mango 201 50 2.8 1.3 5 5 5 5
+VF Orange serving(100g) Tangerine 42 12 0.7 0.3 5 5 5 5
+VF Orange serving(100g) Kumquat 13 3 0.4 0.2 5 5 5 5
+VF Red serving(100g) Strawberry 4 0.9 0.1 0 5 5 5 5
+VF Pink serving(100g) Dragonfruit 60 13 1.2 0 5 5 5 5
+VF Yellow serving(100g) Durian 357 66 4 13 5 5 5 5
+VF Yellow serving(100g) Jackfruit 155 40 3 1 5 5 5 5
+VF Green serving(100g) Pear 101 27 1 0 5 5 5 5
+VF Orange serving(100g) Peach 59 14 1.4 0.4 5 5 5 5
+VF Orange serving(100g) Persimmon 32 8 0.2 0.1 5 5 5 5
+VF Purple serving(100g) Mangosteen 143 35 1 1 5 5 5 5
+VF Green serving(100g) Kiwi 42 10 0.8 0.4 5 5 5 5
+VF Green serving(100g) Starfruit 28 6 0.9 0.3 5 5 5 5
+VF Red serving(100g) Lychee 6 1.6 0.1 0 5 5 5 5
+Snacks piece Yellow Original Chips 160 15 2 10 2 2 1 0
+Snacks piece Yellow Sweet Cake 190 30 14 2 2 2 1 0
+Snacks piece Yellow Sweet CheeseCake 205 16.1 3.6 12.3 2 2 1 0
+Snacks piece Black Sweet Cookie 171 22 2.5 8.8 2 2 1 0
+Snacks piece Black Sweet Goldfish 140 22 2 5 2 2 1 0
+Snacks piece Yellow Butter Popcorn 140 17 2 8 2 2 1 0
+Snacks piece White Sweet Chocolate 450 84 1 13 2 2 1 0
+Snacks piece Yellow Original Crackers 120 20 3 4 2 2 1 0
+Snacks piece Yellow Original Cheese 70 0 6 5 2 2 1 0
+Snacks piece Yellow Sweet Mooncake 130 9.7 3.2 8.7 2 2 1 0
+Snacks piece Yellow Original ShrimpChips 130 20 2 5 2 2 1 0
+Snacks piece Yellow Sweet Pocky 190 28 4 7 2 2 1 0
+Meat serving(100g) Beef 250 0 26 15 2 2 1 1
+Meat serving(100g) Pork 242 0 27 14 2 2 1 1
+Meat serving(100g) Fish 206 0 22 12 2 2 1 1
+Meat serving(100g) Lamb 294 0 25 21 2 2 1 1
+Meat serving(100g) Shrimp 99 0.2 24 0.3 2 2 1 1
+Meat serving(100g) Chicken 239 0 22 14 2 2 1 1
+Meat serving(100g) Crab 97 0 19 1.5 2 2 1 1
+Meat serving(100g) Mussel 172 7 24 4.5 2 2 1 1
+Meat serving(100g) Clam 148 5.1 26 2 2 2 1 1
+Meat serving(100g) Lobster 129 0 27.6 1.3 2 2 1 1
+Meat serving(85g) Rabbit 147 0 28 3 2 2 1 1
