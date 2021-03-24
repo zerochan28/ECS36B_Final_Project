@@ -1,6 +1,3 @@
-//Saifedin Maani
-//11/18/2020 8:48 PM
-
 #ifndef FOOD_H
 #define FOOD_H
 
