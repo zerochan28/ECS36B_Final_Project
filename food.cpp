@@ -1,5 +1,3 @@
-//Saifedin Maani 11/18/2020 8:47 PM
-
 #include "food.h"
 
 // Food Object
