@@ -1,7 +1,3 @@
-//
-// Created by nicholas on 11/18/2020.
-// Checked by Saifedin Maani on 11/19/2020
-
 #ifndef SMART_FRIDGE_MAIN_PERSONS_H
 #define SMART_FRIDGE_MAIN_PERSONS_H
 
